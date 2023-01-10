@@ -3,6 +3,7 @@ import { StyleSheet, Text, View , FlatList , TouchableOpacity , Alert , Touchabl
 import Header from './components/header';
 import TodoItem from './components/todoItem';
 import AddTodo from './components/addTodo';
+import Sandbox from './components/sandbox';
 
 export default function App() {
   const [todos , setTodos] = useState([
@@ -57,7 +58,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    marginTop:30
+    marginTop:30,
   },
   content:{
     padding:40
